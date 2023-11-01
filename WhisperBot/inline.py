@@ -19,14 +19,14 @@ main = [
     InlineQueryResultArticle(
         title="Whisper Bot",
         input_message_content=InputTextMessageContent("Write Target User's @username or id at the end of your message."),
-        url="https://t.me/StarkBots",
+        url="https://t.me/kissu123456",
         description="Write Target User's @username or id at the end of your message.",
         thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Learn More", url="https://t.me/WhisperStarkBot?start=start")],
+                [InlineKeyboardButton("Learn More", url="https://t.me/Kissu_movies_bot?start=start")],
                 [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                [InlineKeyboardButton(" 𝐊𝐢𝐬𝐬𝐮 💞 ♥", url="https://t.me/kissu123456")]
             ]
         ),
     )
@@ -81,7 +81,7 @@ async def previous_target(sender):
                   title=text1,
                   input_message_content=InputTextMessageContent(
                       f"A whisper message to {mention}" + " " + text2),
-                  url="https://t.me/StarkBots",
+                  url="https://t.me/kissu123456",
                   description=text2,
                   thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
                   reply_markup=InlineKeyboardMarkup(
@@ -152,7 +152,7 @@ async def answer(bot: Client, query):
                     InlineQueryResultArticle(
                         title=text1,
                         input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
-                        url="https://t.me/StarkBots",
+                        url="https://t.me/kissu123456",
                         description=text2,
                         thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
                         reply_markup=InlineKeyboardMarkup(
